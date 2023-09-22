@@ -1,0 +1,65 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+/* Estilos para el encabezado */
+.header {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 15px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+/* Estilos para el menú */
+.navbar {
+  background-color: #333; /* Cambia el color de fondo del menú */
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white; /* Cambia el color del texto del menú */
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: #555; /* Cambia el color de fondo al pasar el cursor sobre los elementos del menú */
+}
+
+/* Estilos para el contenido principal */
+.container {
+  text-align: center; /* Centra el contenido en el contenedor */
+  padding: 30px;
+}
+
+.container h2 {
+  font-size: 24px; /* Cambia el tamaño de los encabezados */
+  margin-bottom: 20px;
+}
+
+section {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+/* Estilos para el pie de página */
+.footer {
+  background-color: #333; /* Cambia el color de fondo del pie de página */
+  color: white; /* Cambia el color del texto del pie de página */
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+  clear: both;
+}
